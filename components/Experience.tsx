@@ -3,7 +3,12 @@ import React from 'react'
 import { Button } from './ui/moving-border'
 import { workExperience } from '@/data'
 import { AnimatedTooltip } from './ui/animated-tooltip';
-import { Chrono } from 'react-chrono';
+import type { Chrono as ChronoType } from "react-chrono";
+import dynamic from 'next/dynamic'
+
+export const Chrono = dynamic(() => import('react-chrono').then(lib => lib.Chrono), {
+  ssr: false,
+}) as typeof ChronoType
 import CCardTitle from './CCardTitle';
 
 

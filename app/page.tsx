@@ -5,7 +5,7 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
-export function FloatingNavDemo() {
+function FloatingNavDemo() {
   const navItems = [
     {
       name: "Home",

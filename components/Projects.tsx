@@ -4,6 +4,9 @@ import { CardBody, CardContainer, CardItem } from './ui/3d-card'
 import Link from 'next/link'
 import Image from 'next/image'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 const Projects = () => {
     return (
         <div className='py-20' id='projects'>
@@ -56,7 +59,7 @@ const Projects = () => {
                                         className="px-4 py-2 rounded-xl text-s font-normal dark:text-white"
                                     >
                                         <Image
-                                        src="/git.svg"
+                                        src={`${basePath}/git.svg`}
                                         height="300"
                                         width="300"
                                         className="h-10 w-full object-cover rounded-xl group-hover/card:shadow-xl"

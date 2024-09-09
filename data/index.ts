@@ -68,11 +68,11 @@ export const workExperience = [
 export const projects = [
   {
     id: 1,
-    title: "🤑 Tracker",
-    des: "A Basic Next.js Based Expense Tracker (Budget) for overlooking where your money is coming/going 😈",
-    image: `${basePath}/pj-1.png`,
-    iconLists: [`${basePath}/next.svg`, `${basePath}/c.svg`, `${basePath}/ts.svg`, `${basePath}/neon.svg`, `${basePath}/postgresql.svg`],
-    link: "https://github.com/alien-droid/expense-tracker-next",
+    title: "Ally AI 🤖",
+    des: "A Next.js a cutting-edge ChatBot enabling users to interact with custom AI agents, enhancing response accuracy and driving higher user retention through engaging, lifelike conversations. 🗒️",
+    image: `${basePath}/ss1.png`,
+    iconLists: [`${basePath}/next.svg`, `${basePath}/c.svg`, `${basePath}/ts.svg`, `${basePath}/lang.svg`, `${basePath}/mysql.svg`, `${basePath}/redis-logo.svg`],
+    link: "https://github.com/alien-droid/ally-ai",
   },
   {
     id: 2,
@@ -98,6 +98,14 @@ export const projects = [
     iconLists: [`${basePath}/logo-javascript.svg`, `${basePath}/tail.svg`, `${basePath}/node-js.svg`, `${basePath}/express.svg`, `${basePath}/vercel.svg`],
     link: "https://github.com/alien-droid/gpt-clone-codita",
   },
+  {
+    id: 5,
+    title: "🤑 Tracker",
+    des: "A Basic Next.js Based Expense Tracker (Budget) for overlooking where your money is coming/going 😈",
+    image: `${basePath}/pj-1.png`,
+    iconLists: [`${basePath}/next.svg`, `${basePath}/c.svg`, `${basePath}/ts.svg`, `${basePath}/neon.svg`, `${basePath}/postgresql.svg`],
+    link: "https://github.com/alien-droid/expense-tracker-next",
+  }
 ];
 
 export const socialMedia = [

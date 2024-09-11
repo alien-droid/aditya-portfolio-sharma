@@ -66,7 +66,7 @@ const Projects = () => {
                                             src={`${basePath}/git.svg`}
                                             height="300"
                                             width="300"
-                                            className="h-8 sm:h-10 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                            className="h-8 sm:h-6 w-auto object-cover rounded-xl group-hover/card:shadow-xl"
                                             alt="GitHub link"
                                         />
                                     </CardItem>
